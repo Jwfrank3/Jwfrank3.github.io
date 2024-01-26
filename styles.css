@@ -1,0 +1,26 @@
+
+
+p {
+  color: green;
+}
+a:link {
+  color: white;
+  background-color: none;
+  text-decoration: none;
+}
+a:visited {
+  color: pink' 
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue; 
+  background-color: transparent; 
+  text-decoration: underline;
+}
+ul {
+ border: 5px;
+ color:gold
+ text-align: center;
+}
