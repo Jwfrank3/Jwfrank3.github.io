@@ -3,6 +3,10 @@ p {
   font-size: 10vw;
   font-family: helvetica;
   color: green;
+  padding:20px;
+  margin-top:30px;
+  background-color:#1abc9c;
+  height:1500px;
 }
 ul {
   list-style-type: none;
