@@ -3,9 +3,7 @@ p {
   font-size: 5vw;
   font-family: helvetica;
   color: green;
-  padding:20px;
   background-color:#1abc9c;
-  height:1500px;
 }
 ul {
   list-style-type: none;
