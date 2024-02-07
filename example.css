@@ -1,0 +1,19 @@
+body {
+  background-color:rgba(0, 125, 255, 1);
+  font-family:Verdana;
+  font-size:3.5vw;
+  padding:1.5vw;
+  margin-top:1.5vw;
+}
+h1 {
+  margin-bottom:0 !important;
+  padding:none !important;
+  }
+p {
+  margin-top:0 !important;
+  font-size:2.5vw;
+  }
+Hr {
+  padding:none !important;
+  margin:none !important;
+}
