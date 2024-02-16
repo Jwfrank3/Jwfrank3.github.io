@@ -1,53 +1,42 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta chaset="UTF-8">
-<meta name="description" content"this is a boring ass web page.  Seriously how did you even find it?">
-<meta name="author" content="dickbutt, why would i put my name on the internet?">
-<link rel="stylesheet" href="styles.css">
-<title>HTML Index</title>
-
-<nav>
-<ul>
-  <li><a href="https://jwfrank3.github.io/index.html">Home</a></li>
-  <li><a href="https://jwfrank3.github.io/news.html">News</a></li>
-  <li><a class="active" href=https://jwfrank3.github.io/contact.html">Contact</a></li>
-  <li><a href="https://jwfrank3.github.io/about.html">About</a></li>
-</ul>
-</nav>
-</head>
-
-<main>
-<div style="padding:20px;margin-top:30px;">
-  <h1>Fixed Top Navigation Bar</h1>
-  <h2>Scroll this page to see the effect</h2>
-  <h2>The navigation bar will stay at the top of the page while scrolling</h2>
-
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
-  <p>Some text some text some text some text..</p>
+ <head>
+  <link rel="stylesheet" href="stylish.css">
+  <meta name="viewport" content="width=device-width, height="device-height", initial scale="1.0"
+ </head>
+<body>
+  <div>
+ <h1 id="title">Cat Mail</h1>
+ <p id="description">Create an email account.</p>
+<form id="survey-form" required>
+ <fieldset>
+ <label for="name" id="name-label">Name: </label>
+ <input class="block" type="text" id="name" name="name" placeholder="Enter your name" required></input>
+ <label for="email" id="email-label">email: </label>
+ <input class="block" type="email" id="email" name="email" placeholder="Enter your email" required></input>
+ <label for="number" id="number-label">Age: </label>
+ <input class="block" type="number" id="number" name="number" placeholder="13+" min="13" max="120"></input>
+ <label>Are cats cute?</label>
+ <select id="dropdown">
+   <option>Yes</option>
+   <option>No</option>
+ </select>
+   <p>Do you love cats?</p>
+<label for="yes">Yes </label>
+<input type="radio" name="no" id="yes" value="yes" checked></input>
+<label for="no">No </label>
+<input type="radio" name="no" id="no" value="yes"></input>
+  <p>Adopt a virtual cat?</p>
+<label for="peanut">Peanut</label>
+<input type="checkbox" id="peanut" name="peanut" value="peanut"></input>
+<br>
+<label for="Kenji">No</label>
+<input type="checkbox" id="Kenji" name="Kenji" value="Kenji"></input>
+  <p>Any suggestions?</p>
+  <textarea class="block" id="suggestion" name="Suggestion"></textarea>
+<input type="submit" id="submit" value="Submit"></input>
+</fieldset>
+</form>
 </div>
-</main>
-  
 </body>
 </html>
-
-
