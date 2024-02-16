@@ -1,0 +1,21 @@
+body {
+    background-image: url('/home/raskin/Desktop/HTML-ASSETS/360_F_616250939_PQxze4cJMzl7CZ25G90rI7XH0yLJbAhc.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 10vw
+}
+
+div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    min-width: 300px;
+
+}
+
+.block {
+    display: block;
+}
