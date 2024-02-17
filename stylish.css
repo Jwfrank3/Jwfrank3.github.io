@@ -18,9 +18,8 @@ div {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    max-width: 400px;
-    min-width: 300px;
-
+    max-width: 500px;
+    max-height: 1000px;
 }
 
 .block {
