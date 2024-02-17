@@ -12,6 +12,7 @@ html, body {
     background-image: url('360_F_616250939_PQxze4cJMzl7CZ25G90rI7XH0yLJbAhc.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 div {
@@ -26,7 +27,7 @@ div {
     display: block;
 }
 
-@media (orientation: landscape) {
+@media only screen and (max-device-width: 600px) and (min-device-width: 1200px) and (orientation: landscape) {
     #background {
     background-image: url('modified360.webp');
     background-position: center;
@@ -34,8 +35,9 @@ div {
     }
 }
 
-@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+@media only screen and (max-device-width: 1200px) and (orientation: portrait) {
     body {
       background-position: right center;
+      background-image: url('crop.webp');
     }
   }
