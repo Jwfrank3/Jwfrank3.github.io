@@ -5,15 +5,16 @@ html, body {
     color: rgb(255, 255, 255);
     display: flex;
     width: 100%;
+    height: auto;
 }
 
-img {
+background-img {
     max-width: 100%;
     display: block;
 }
 
 body {
-    background-image: url('360_F_616250939_PQxze4cJMzl7CZ25G90rI7XH0yLJbAhc.webp');
+    background-image: url('/home/raskin/Desktop/HTML-ASSETS/360_F_616250939_PQxze4cJMzl7CZ25G90rI7XH0yLJbAhc.webp');
 }
 
 div {
@@ -27,7 +28,7 @@ div {
 
 .block {
     display: block;
-}}
+}
 
 div {
     width: 80%;
