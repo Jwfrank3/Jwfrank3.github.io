@@ -369,7 +369,7 @@ html {
 }
 
 #nav {
-   background-image: url(/image/Green_Floral_Background.jpg);
+   background-image: url(Green_Floral_Background.jpg);
    width: 100%;
    height: 11.05vh;
    background-repeat: no-repeat;
@@ -401,7 +401,7 @@ img {
 }
 
 main {
-   background-image: url(/image/Header_Desktop.jpg);
+   background-image: url(Header_Desktop.jpg);
    background-size: cover;
    width: 100%;
    height: 49.3vh;
@@ -423,7 +423,7 @@ main {
 }
 
 section {
-	background-image: url(/image/Cream_Floral_Background.jpg);
+	background-image: url(Cream_Floral_Background.jpg);
 	background-size: cover;
 	width: 100%;
   height: 39.6vh;
